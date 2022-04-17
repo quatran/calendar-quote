@@ -4,7 +4,7 @@ Generates a random calendar quote.
 
 ## Usage
 
-Go to <https://quatran.github.io/calendar-quote> and click anywhere or reload the page for a new random quote.
+Go to <https://quatran.github.io/calendar-quote/index.html> and click anywhere or reload the page for a new random quote.
 
 ## License
 
