@@ -23,7 +23,9 @@ const beginning = [
     "Under some circumstance you must",
     "You are allowed to",
     "Your inner child wants you to",
-    "Your subconciousness wants you to"
+    "Your subconciousness wants you to",
+    "Your mum would be glad to see you",
+    "Seize your moment and"
 ]
 
 const action = [
@@ -46,6 +48,8 @@ const action = [
     "visit the zoo",
     "watch a movie",
     "write a love poem",
+    "be kind to a stranger",
+    "complement someone's achievement"
 ]
 const adverb = [
     "calmly",
@@ -56,6 +60,8 @@ const adverb = [
     "seriously",
     "smoothly",
     "without any doubts",
+    "the best way you can",
+    "in all honesty",
     "",
     "",
     "",
