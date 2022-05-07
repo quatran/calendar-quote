@@ -8,4 +8,4 @@ Go to <https://quatran.github.io/calendar-quote/index.html> and click anywhere o
 
 ## License
 
-Distrubeted under the GPL-3.0 License. See `LICENSE` for more information
+Distrubeted under the GPL-3.0 License. See `LICENSE` for more information.
