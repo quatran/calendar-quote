@@ -9,7 +9,8 @@ const backgroundColors = [
     "#52B69A" //green
 ];
 
-const beginning = [
+// A quote is built from three parts: beginning, middle and end-
+const beginning_quote = [
     "According to studies you should",
     "Anyone can",
     "As an average human you should",
@@ -28,7 +29,8 @@ const beginning = [
     "Seize your moment and"
 ]
 
-const action = [
+//an activity
+const middle_quote = [
     "bake a cake",
     "build a sand castle",
     "call a friend",
@@ -51,27 +53,9 @@ const action = [
     "be kind to a stranger",
     "complement someone's achievement"
 ]
-const adverb = [
-    "calmly",
-    "carefully",
-    "deliberately",
-    "gently",
-    "ocassionally",
-    "seriously",
-    "smoothly",
-    "without any doubts",
-    "the best way you can",
-    "in all honesty",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-]
 
-
-const end = [
+// time, place or adverb
+const end_quote = [
     "24/7",
     "anytime",
     "at sunrise",
@@ -87,14 +71,20 @@ const end = [
     "now",
     "on mondays",
     "outside",
-    "tomorrow"
+    "tomorrow",
+    "gently",
+    "ocassionally",
+    "seriously",
+    "smoothly",
+    "without any doubts",
+    "the best way you can",
+    "in all honesty",
 ];
 
 function getRandomQuote() {
-    var quote = getRandomElementfromArray(beginning) + ' '
-        + getRandomElementfromArray(action) + ' '
-        + getRandomElementfromArray(adverb) + ' '
-        + getRandomElementfromArray(end) + ".";
+    var quote = getRandomElementfromArray(beginning_quote) + ' '
+        + getRandomElementfromArray(middle_quote) + ' '
+        + getRandomElementfromArray(end_quote) + ".";
     return quote;
 }
 
