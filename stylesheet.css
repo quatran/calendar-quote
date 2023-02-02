@@ -1,7 +1,14 @@
 body {
-    font-family: Arial, "Dejavu Sans", Helvetica, sans-serif;
-    font-size: 5vw;
-    color: white;
-    height: 95%;
-    width: 95%;
+	font-family: Comic Sans, Arial, "Dejavu Sans", Helvetica, sans-serif;
+	font-size: 9vw;
+	color: white;
+	position: relative;
+}
+
+#quote {
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 }
