@@ -1,6 +1,6 @@
 body {
-	font-family: Comic Sans, Arial, "Dejavu Sans", Helvetica, sans-serif;
-	font-size: 9vw;
+	font-family: Arial, "Dejavu Sans", Helvetica, sans-serif;
+	font-size: 8vw;
 	color: white;
 	position: relative;
 }
@@ -8,7 +8,7 @@ body {
 #quote {
 	text-align: center;
 	margin: 0;
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	transform: translate(0, -50%);
 }
