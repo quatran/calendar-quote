@@ -1,7 +1,18 @@
 body {
+    position: relative;
+}
+#quote {
     font-family: Arial, "Dejavu Sans", Helvetica, sans-serif;
-    font-size: 5vw;
     color: white;
-    height: 95%;
-    width: 95%;
+    font-size: 7vw;
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+@media (orientation: portrait) or (aspect-ratio: 2/3) {
+    #quote {
+        font-size: 12vw;
+    }
 }

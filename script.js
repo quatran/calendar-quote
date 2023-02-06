@@ -26,7 +26,10 @@ const beginning_quote = [
     "Your inner child wants you to",
     "Your subconciousness wants you to",
     "Your mum would be glad to see you",
-    "Seize your moment and"
+    "Seize your moment and",
+    "Get out of your chair to",
+    "Maybe it is time to",
+    "Sometimes it's just nice to",
 ]
 
 //an activity
@@ -51,7 +54,11 @@ const middle_quote = [
     "watch a movie",
     "write a love poem",
     "be kind to a stranger",
-    "complement someone's achievement"
+    "complement someone's achievement",
+    "eat your favourite dish",
+    "gift your neighbour a leftover",
+    "drink a warm cup of coffee",
+    "take a stroll",
 ]
 
 // time, place or adverb
@@ -67,11 +74,14 @@ const end_quote = [
     "in the church",
     "in the moonlight",
     "in the rain",
-    "next week",
+   "next week",
     "now",
     "on mondays",
     "outside",
     "tomorrow",
+    "in the morning",
+    "at lunchtime",
+    "for your favourite holiday",
     "gently",
     "ocassionally",
     "seriously",
