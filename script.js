@@ -50,7 +50,7 @@ const middle_quote = [
     "sleep",
     "take a nap",
     "take your time",
-    "visit the zoo",
+    "visit an animal sanctuary",
     "watch a movie",
     "write a love poem",
     "be kind to a stranger",
