@@ -93,8 +93,11 @@ const end_quote = [
 
 function getRandomQuote() {
     var quote = getRandomElementfromArray(beginning_quote) + ' '
-        + getRandomElementfromArray(middle_quote) + ' '
-        + getRandomElementfromArray(end_quote) + ".";
+        + getRandomElementfromArray(middle_quote);
+    if (Math.random() > 0.75) {
+        quote += ' ' + getRandomElementfromArray(end_quote);
+    }
+	quote += '.';
     return quote;
 }
 
