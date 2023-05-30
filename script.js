@@ -30,6 +30,8 @@ const beginning_quote = [
     "Get out of your chair to",
     "Maybe it is time to",
     "Sometimes it's just nice to",
+    "Perhaps you would enjoy to",
+    "You know the rules, so",
 ]
 
 //an activity
@@ -59,6 +61,8 @@ const middle_quote = [
     "gift your neighbour a leftover",
     "drink a warm cup of coffee",
     "take a stroll",
+    "tell someone how you are feeling",
+    "give it up",
 ]
 
 // time, place or adverb
@@ -89,6 +93,8 @@ const end_quote = [
     "without any doubts",
     "the best way you can",
     "in all honesty",
+    "whenever you need somebody",
+    "when you need someone to lean on",
 ];
 
 function getRandomQuote() {
