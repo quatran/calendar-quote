@@ -1,6 +1,7 @@
 #quote {
     font-family: Arial, "Dejavu Sans", Helvetica, sans-serif;
     color: white;
+	text-shadow: 1px 1px black;
     font-size: 6vw;
     text-align: center;
     margin: 0;
