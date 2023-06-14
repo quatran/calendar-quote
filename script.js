@@ -4,9 +4,12 @@ function getRandomElementfromArray(array) {
 const backgroundColors = [
     "#9B5DE5", //purple
     "#F15BB5", //margenta
-    "#00BBF9", //blue
     "#FF006E", //red
-    "#52B69A" //green
+    "#0C322C", //pine green
+    "#30BA78", //jungle green
+    "#192072", //midnight blue
+    "#2453FF", //waterhole blue
+    "#FE7C3F" //Persimmon
 ];
 
 // A quote is built from three parts: beginning, middle and end-
@@ -30,6 +33,15 @@ const beginning_quote = [
     "Get out of your chair to",
     "Maybe it is time to",
     "Sometimes it's just nice to",
+    "Perhaps you would enjoy to",
+    "You know the rules, so",
+    "But next time 'round, I'm gonna",
+    "Whenever you need somebody, go",
+    "You don't have to say you want to",
+    "It's much too late for you to",
+    "Your heart's been aching to",
+    "You're too shy to say that you want to",
+    "Inside, we both know what's been going on when you"
 ]
 
 //an activity
@@ -50,15 +62,25 @@ const middle_quote = [
     "sleep",
     "take a nap",
     "take your time",
-    "visit the zoo",
+    "visit an animal sanctuary",
     "watch a movie",
     "write a love poem",
     "be kind to a stranger",
-    "complement someone's achievement",
+    "compliment someone's achievement",
     "eat your favourite dish",
     "gift your neighbour a leftover",
     "drink a warm cup of coffee",
     "take a stroll",
+    "tell someone how you are feeling",
+    "give it up",
+    "spend some time with me",
+    "change your ways",
+    "do a full commitment",
+    "know what's been going on",
+    "tell someone how you're feeling",
+    "make them understand",
+    "keep holding on",
+    "care about things that people say"
 ]
 
 // time, place or adverb
@@ -74,7 +96,7 @@ const end_quote = [
     "in the church",
     "in the moonlight",
     "in the rain",
-   "next week",
+    "next week",
     "now",
     "on mondays",
     "outside",
@@ -89,12 +111,20 @@ const end_quote = [
     "without any doubts",
     "the best way you can",
     "in all honesty",
+    "whenever you need somebody",
+    "when you need someone to lean on",
+    "each and every day",
+    "is what I'm thinking of",
+    "once you know what's been going on"
 ];
 
 function getRandomQuote() {
-    var quote = getRandomElementfromArray(beginning_quote) + ' '
-        + getRandomElementfromArray(middle_quote) + ' '
-        + getRandomElementfromArray(end_quote) + ".";
+    var quote = getRandomElementfromArray(beginning_quote).trim() + ' '
+        + getRandomElementfromArray(middle_quote).trim();
+    if (Math.random() < 0.33) {
+        quote += ' ' + getRandomElementfromArray(end_quote).trim();
+    }
+    quote += '.';
     return quote;
 }
 
